@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RTX Webshop</title>
+        <link rel = "stylesheet" href = "style.css">
+        <meta charset="utf-8"/>
+        <script src="https://www.paypal.com/sdk/js?client-id=<%= paypalClientId %>"></script>
+        <script src = "script.js"></script>
+
+    </head>
+    <body>
+        <section class="sec">
+            <header>
+                <a href = "index.html"><img src = "logo.png" class = "logo"></a>
+                <h2 class = "productName">Details</h2>
+            </header>
+
+            <div class = "content">
+                <div class = "textBox">
+                    <h2>Your <br><b style="font-size: larger;">purchase</b> details</h2><br>
+                    <p class = "sanboxAccount">
+                        Email for Sandbox Account-> sb-zw7iw12054016@personal.example.com<br>
+                        pw for Sandbox Account -> 9on3<.Do
+                    </p>
+                </div>  
+            </div>     
+            <div class = "paypalButton" id = "paypal"></div>     
+        </section>          
+    </body>    
+</html>

@@ -1,5 +1,7 @@
 # PayPal_TakeHomeTest
  Take Home Test for PayPal
+ 
+ SQL table creation is in the project, you can import it in PHP MyAdmin.
 
 - Was able to locally have database queries running (insert and select)
 - Was able to have the client-side button developed.
